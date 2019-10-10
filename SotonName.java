@@ -47,9 +47,6 @@ public class SotonName {
 	public static void main(String[] args) throws Exception {
 		// read from stdin if usernames are provided
 		if (args.length > 0) {
-			if (args.length > 1)
-				System.out.println("User list: ");
-			
 			for (int i = 0; i < args.length; i++) {
 				printUserInfo(args[i]);
 			}
